@@ -49,7 +49,7 @@ See [`/tests/test_integration.py`](https://github.com/mmcdermott/MEDS_Tabular_Au
                                tabularization.min_code_inclusion_frequency=10 \
                                tabularization.window_sizes=[1d,30d,365d,full] \
                                do_overwrite=False \
-                               tabularization.aggs=[static/present,static/first,code/count,value/count,value/sum,value/sum_sqd,value/min,value/max]"
+                               tabularization.aggs=[static/present,static/first,code/count,value/count,value/sum,value/sum_sqd,value/min,value/max]
    ```
 
    - For the exhuastive examples of value aggregations, see [`/src/MEDS_tabular_automl/utils.py`](https://github.com/mmcdermott/MEDS_Tabular_AutoML/blob/main/src/MEDS_tabular_automl/utils.py#L24)
